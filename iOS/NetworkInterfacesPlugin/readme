@@ -1,0 +1,12 @@
+The code is based on the one on this thread
+
+http://stackoverflow.com/questions/677530/how-can-i-programmatically-get-the-mac-address-of-an-iphone
+
+It returns an array of network interface objects. Each object have a "name", "macAddress" and "ip"
+In my test (iPad and simulator)
+lo0 (127.0.0.1 IP and 00:00:00:00:00:00 mac address)
+en0 (is the wifi with the local IP and the wifi mac address)
+
+I think on iPhones it should return another network interface for 3G chipset but I can't test.
+
+There is a sample project and the sample code inside the index.html
