@@ -1,9 +1,10 @@
-The code is based on the one on this thread
+The code is based on the one on this stack overflow thread. All the credit goes to him. I just created the plugin with that code.
 
 http://stackoverflow.com/questions/677530/how-can-i-programmatically-get-the-mac-address-of-an-iphone
 
-It returns an array of network interface objects. Each object have a "name", "macAddress" and "ip"
-In my test (iPad and simulator)
+It returns an array of network interface objects. Each object have a "name", "macAddress" and "ip" properties
+In my test (iPad and simulator) I got 2 network interfaces:
+
 lo0 (127.0.0.1 IP and 00:00:00:00:00:00 mac address)
 en0 (is the wifi with the local IP and the wifi mac address)
 
@@ -12,8 +13,12 @@ I think on iPhones it should return another network interface for 3G chipset but
 There is a sample project and the sample code inside the index.html
 
 
+How to use:
+
 Drag the IPAddress.c, IPAddress.h, NetworkInterfacesPlugin.m and NetworkInterfacesPlugin.h to your Xcode project
 
 add this line to the config.xml
 
  <plugin name="NetworkInterfacesPlugin" value="NetworkInterfacesPlugin" />
+
+copy the NetworkInterfacesPlugin.js inside your www folder and link to it in your index.html
