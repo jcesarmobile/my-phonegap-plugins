@@ -31,18 +31,18 @@
             <p id='resultado'></p>
         </div>
         <script type="text/javascript" src="cordova-2.5.0.js"></script>
-        <script type="text/javascript" src="js/MacAddressPlugin.js"></script>
+        <script type="text/javascript" src="js/NetworkInterfacesPlugin.js"></script>
         <script type="text/javascript">
             document.addEventListener("deviceready",onDeviceReady,false);
             function onDeviceReady() {
-                window.MacAddressPlugin(nativePluginResultHandler,nativePluginErrorHandler);
+                window.NetworkInterfacesPlugin(nativePluginResultHandler,nativePluginErrorHandler);
             }
             
             function nativePluginResultHandler (result) {
                 var resultString = "";
                 for (var i=0;i<result.length;i++) {
                     
-                    resultString += "Device "+(i+1);
+                    resultString += "Network Interface "+(i+1);
                     resultString += "<br/>";
                     resultString += "Name: "+result[i].name;
                     resultString += "<br/>";

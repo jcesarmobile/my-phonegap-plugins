@@ -6,12 +6,12 @@
 //
 //
 
-#import "MacAddressPlugin.h"
+#import "NetworkInterfacesPlugin.h"
 #import "IPAddress.h"
 
-@implementation MacAddressPlugin
+@implementation NetworkInterfacesPlugin
 
-- (void)getMacAddress:(CDVInvokedUrlCommand*)command {
+- (void)getNetworkInterfaces:(CDVInvokedUrlCommand*)command {
     
     CDVPluginResult* pluginResult = nil;
     InitAddresses();

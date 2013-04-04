@@ -8,8 +8,8 @@
 
 #import <Cordova/CDV.h>
 
-@interface MacAddressPlugin : CDVPlugin
+@interface NetworkInterfacesPlugin : CDVPlugin
 
-- (void)getMacAddress:(CDVInvokedUrlCommand*)command;
+- (void)getNetworkInterfaces:(CDVInvokedUrlCommand*)command;
 
 @end
