@@ -1,0 +1,9 @@
+Updated Phonegap plugin from
+https://github.com/phonegap/phonegap-plugins/tree/master/iOS/MapKit
+
+Now it works with phonegap 2.6
+
+To use it drag all the .h and .m files to your Xcode plugins folder
+
+Add this line to your config.xml
+<plugin name="MapKitView" value="MapKitView" />
