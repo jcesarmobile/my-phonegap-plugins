@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+
+        <title>Hello World</title>
+    </head>
+    <body>
+        <div class="app">
+            <h1>Apache Cordova App Info</h1>
+             <p id='resultado'></p>
+        </div>
+        <script type="text/javascript" src="cordova-2.5.0.js"></script>
+        <script type="text/javascript" src="js/AppInfo.js"></script>
+        <script type="text/javascript">
+            document.addEventListener("deviceready",onDeviceReady,false);
+            function onDeviceReady() {
+                window.AppInfo(nativePluginResultHandler,nativePluginErrorHandler);
+            }
+            
+            function nativePluginResultHandler (result) {
+                var resultString = "";
+                
+                resultString += "App Name: "+result.CFBundleName;
+                resultString += "<br/>";
+                resultString += "App Version: "+result.CFBundleShortVersionString;
+                resultString += "<br/>";
+                resultString += "App Build: "+result.CFBundleVersion;
+                
+                var resultado = document.getElementById("resultado");
+                
+                resultado.innerHTML = resultString;
+            }
+            
+            function nativePluginErrorHandler (result) {
+                
+                var resultado = document.getElementById("resultado");
+                
+                resultado.innerHTML = result;
+            }
+            
+        </script>
+    </body>
+</html>

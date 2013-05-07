@@ -44,7 +44,7 @@
     } else {
         
         pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_ERROR];
-        
+        NSLog(@"error");
     }
     
     

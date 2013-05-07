@@ -29,13 +29,15 @@
         <div class="app">
             <h1>Apache Cordova Mac plugin</h1>
             <p id='resultado'></p>
+            <p id='resultado2'></p>
+            <input type="button" value="check" onClick="recheck();">
         </div>
         <script type="text/javascript" src="cordova-2.5.0.js"></script>
         <script type="text/javascript" src="js/NetworkInterfacesPlugin.js"></script>
         <script type="text/javascript">
             document.addEventListener("deviceready",onDeviceReady,false);
             function onDeviceReady() {
-                window.NetworkInterfacesPlugin(nativePluginResultHandler,nativePluginErrorHandler);
+               // window.NetworkInterfacesPlugin(nativePluginResultHandler,nativePluginErrorHandler);
             }
             
             function nativePluginResultHandler (result) {
@@ -60,11 +62,37 @@
                 resultado.innerHTML = resultString;
             }
             
+            function nativePluginResultHandler2 (result) {
+                var resultString = "";
+                
+                for (var i=0;i<result.length;i++) {
+                    
+                    resultString += "Network Interface "+(i+1);
+                    resultString += "<br/>";
+                    resultString += "Name: "+result[i].name;
+                    resultString += "<br/>";
+                    resultString += "Mac: "+result[i].macAddress;
+                    resultString += "<br/>";
+                    resultString += "IP: "+result[i].ip;
+                    resultString += "<br/>";
+                    resultString += "<br/>";
+                }
+                
+                
+                var resultado = document.getElementById("resultado2");
+                
+                resultado.innerHTML = resultString;
+            }
+            
             function nativePluginErrorHandler (result) {
                 
                 var resultado = document.getElementById("resultado");
                 
                 resultado.innerHTML = result;
+            }
+            
+            function recheck(){
+                window.NetworkInterfacesPlugin(nativePluginResultHandler2,nativePluginErrorHandler);
             }
             
             </script>
