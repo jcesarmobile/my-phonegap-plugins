@@ -7,3 +7,7 @@ To use it drag all the .h and .m files to your Xcode plugins folder
 
 Add this line to your config.xml
 <plugin name="MapKitView" value="MapKitView" />
+
+add MapKit framewort to your project
+
+NOTE: It doesn't workt with phonegap 2.7, there is a phonegap 2.7 version here https://github.com/imhotep/MapKit/tree/master/src/ios
