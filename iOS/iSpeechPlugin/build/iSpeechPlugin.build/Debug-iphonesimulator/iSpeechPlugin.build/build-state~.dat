@@ -1,0 +1,607 @@
+TiSpeechPlugin
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/Info.plist iSpeechPlugin/iSpeechPlugin-Info.plist
+cPhaseScriptExecution "Copy www directory" /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Script-304B58A110DAC018002A0835.sh
+cCpResource iSpeechPlugin/config.xml build/iSpeechPlugin.app/config.xml
+cCpResource iSpeechPlugin/Resources/icons/icon-72.png build/iSpeechPlugin.app/icon-72.png
+cCpResource iSpeechPlugin/Resources/icons/icon.png build/iSpeechPlugin.app/icon.png
+cCpResource iSpeechPlugin/Resources/icons/icon@2x.png build/iSpeechPlugin.app/icon@2x.png
+cCopyStringsFile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/en.lproj/Localizable.strings iSpeechPlugin/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/es.lproj/Localizable.strings iSpeechPlugin/Resources/es.lproj/Localizable.strings
+cCompileXIB /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Classes/MainViewController.xib
+cCopyStringsFile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/de.lproj/Localizable.strings iSpeechPlugin/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/se.lproj/Localizable.strings iSpeechPlugin/Resources/se.lproj/Localizable.strings
+cCpResource iSpeechPlugin/Resources/splash/Default-Landscape@2x~ipad.png build/iSpeechPlugin.app/Default-Landscape@2x~ipad.png
+cCpResource iSpeechPlugin/Resources/splash/Default-Landscape~ipad.png build/iSpeechPlugin.app/Default-Landscape~ipad.png
+cCpResource iSpeechPlugin/Resources/splash/Default-Portrait@2x~ipad.png build/iSpeechPlugin.app/Default-Portrait@2x~ipad.png
+cCpResource iSpeechPlugin/Resources/splash/Default-Portrait~ipad.png build/iSpeechPlugin.app/Default-Portrait~ipad.png
+cCpResource iSpeechPlugin/Resources/splash/Default@2x~iphone.png build/iSpeechPlugin.app/Default@2x~iphone.png
+cCpResource iSpeechPlugin/Resources/splash/Default~iphone.png build/iSpeechPlugin.app/Default~iphone.png
+cCpResource iSpeechPlugin/Resources/splash/Default-568h@2x~iphone.png build/iSpeechPlugin.app/Default-568h@2x~iphone.png
+cCpResource iSpeechPlugin/Resources/icons/icon-72@2x.png build/iSpeechPlugin.app/icon-72@2x.png
+cProcessPCH /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iSpeechPlugin-Prefix-apwytmpkofirjxfusftlknvwtiwy/iSpeechPlugin-Prefix.pch.pth iSpeechPlugin/iSpeechPlugin-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects-normal/i386/main.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects-normal/i386/AppDelegate.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects-normal/i386/MainViewController.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/iSpeechPlugin normal i386
+cGenerateDSYMFile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app.dSYM /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/iSpeechPlugin
+cTouch /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000050EDEAFB0000000000000110
+t1357769467
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c0000000051780FA300000000001EB540
+t1366822819
+s2012480
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
+c0000000051780FA100000000000C1030
+t1366822817
+s790576
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
+c0000000051780FA20000000000193640
+t1366822818
+s1652288
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c0000000051780FA200000000000226E0
+t1366822818
+s141024
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c0000000051780FA300000000003D4DF0
+t1366822819
+s4017648
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c0000000051780FA40000000000215DB0
+t1366822820
+s2186672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000051780FA50000000000228FE0
+t1366822821
+s2265056
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c0000000051780FA5000000000009C590
+t1366822821
+s640400
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+c0000000051780FA50000000000085620
+t1366822821
+s546336
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000051780FA900000000003DDFA0
+t1366822825
+s4054944
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+c0000000051780FAC00000000002CFBE0
+t1366822828
+s2948064
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
+c0000000051780FAF00000000002DBA50
+t1366822831
+s2996816
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c0000000051780FB000000000000BCC20
+t1366822832
+s773152
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c0000000051780FB00000000000030EB0
+t1366822832
+s200368
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000051780FB100000000001D5750
+t1366822833
+s1922896
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c0000000051780FB3000000000006CC50
+t1366822835
+s445520
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000051780FB70000000000AB6230
+t1366822839
+s11231792
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app
+t2
+s0
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app.dSYM
+t2
+s0
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/Default-568h@2x~iphone.png
+t2
+s0
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/Default-Landscape@2x~ipad.png
+t2
+s0
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/Default-Landscape~ipad.png
+t2
+s0
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/Default-Portrait@2x~ipad.png
+t2
+s0
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/Default-Portrait~ipad.png
+t2
+s0
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/Default@2x~iphone.png
+t2
+s0
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/Default~iphone.png
+t2
+s0
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/Info.plist
+t2
+s0
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/MainViewController.nib
+t2
+s0
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/PkgInfo
+t2
+s0
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/config.xml
+t2
+s0
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/de.lproj/Localizable.strings
+t2
+s0
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/en.lproj/Localizable.strings
+t2
+s0
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/es.lproj/Localizable.strings
+t2
+s0
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/iSpeechPlugin
+t2
+s0
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/icon-72.png
+t2
+s0
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/icon-72@2x.png
+t2
+s0
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/icon.png
+t2
+s0
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/icon@2x.png
+t2
+s0
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/se.lproj/Localizable.strings
+t2
+s0
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects-normal/i386/AppDelegate.o
+t2
+s0
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects-normal/i386/MainViewController.o
+t2
+s0
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects-normal/i386/iSpeechPlugin.LinkFileList
+c000000005223571C00000000000001CB
+t1378047772
+s459
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Script-304B58A110DAC018002A0835.sh
+c000000005223571C000000000000051A
+t1378047772
+s1306
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/libCordova.a
+c000000005223571C000000000011A748
+t1378047772
+s1156936
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Classes/AppDelegate.m
+c000000005223570C00000000000013B1
+t1378047756
+s5041
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Classes/MainViewController.m
+c000000005223570C000000000000126E
+t1378047756
+s4718
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Classes/MainViewController.xib
+c000000005223570C0000000000001759
+t1378047756
+s5977
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/de.lproj/Localizable.strings
+c000000005223570C00000000000004BF
+t1378047756
+s1215
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/en.lproj/Localizable.strings
+c000000005223570C00000000000004AA
+t1378047756
+s1194
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/es.lproj/Localizable.strings
+c000000005223570C00000000000004B7
+t1378047756
+s1207
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/icons/icon-72.png
+c000000005223570C0000000000001350
+t1378047756
+s4944
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/icons/icon-72@2x.png
+c000000005223570C0000000000002DBA
+t1378047756
+s11706
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/icons/icon.png
+c000000005223570C0000000000000F3E
+t1378047756
+s3902
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/icons/icon@2x.png
+c000000005223570C0000000000001EBD
+t1378047756
+s7869
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/se.lproj/Localizable.strings
+c000000005223570C00000000000004AB
+t1378047756
+s1195
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/splash/Default-568h@2x~iphone.png
+c000000005223570C00000000000085B1
+t1378047756
+s34225
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/splash/Default-Landscape@2x~ipad.png
+c000000005223570C0000000000012DF4
+t1378047756
+s77300
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/splash/Default-Landscape~ipad.png
+c000000005223570C0000000000008877
+t1378047756
+s34935
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/splash/Default-Portrait@2x~ipad.png
+c000000005223570C0000000000012B02
+t1378047756
+s76546
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/splash/Default-Portrait~ipad.png
+c000000005223570C00000000000085E6
+t1378047756
+s34278
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/splash/Default@2x~iphone.png
+c000000005223570C0000000000007323
+t1378047756
+s29475
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/splash/Default~iphone.png
+c000000005223570C000000000000289A
+t1378047756
+s10394
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/config.xml
+c000000005223570D00000000000008A3
+t1378047757
+s2211
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/iSpeechPlugin-Prefix.pch
+c000000005223570C00000000000003CB
+t1378047756
+s971
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/main.m
+c000000005223570C000000000000045F
+t1378047756
+s1119
+
+N/var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iSpeechPlugin-Prefix-apwytmpkofirjxfusftlknvwtiwy/iSpeechPlugin-Prefix.pch.pth
+t2
+s0
+
+NiSpeechPlugin/iSpeechPlugin-Info.plist
+c000000005223570D0000000000000747
+t1378047757
+s1863
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies3f56989c8ed3b741^07f09a9c8ed3b741^---0#1#0#--18"Check dependencies36"9C3E2AAD-2B1C-4F0B-937A-F452A5F40416-
+
+CCompileC build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects-normal/i386/AppDelegate.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399740586.480747
+e399740586.600234
+r1
+xCompileC
+xbuild/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects-normal/i386/AppDelegate.o
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Classes/AppDelegate.m2e3c7baa8ed3b741^f4a799aa8ed3b741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Classes/AppDelegate.m0000000000000000^3861"CompileC build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects-normal/i386/AppDelegate.o iSpeechPlugin/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/iSpeechPlugin-generated-files.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/iSpeechPlugin-own-target-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/iSpeechPlugin-all-target-headers.hmap -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/iSpeechPlugin-project-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/usr/local/lib/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/UninstalledProducts/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/DerivedSources/i386 -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/DerivedSources -F/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -include /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iSpeechPlugin-Prefix-apwytmpkofirjxfusftlknvwtiwy/iSpeechPlugin-Prefix.pch -MMD -MT dependencies -MF /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects-normal/i386/AppDelegate.dia -c /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Classes/AppDelegate.m -o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects-normal/i386/AppDelegate.o36"836FF0E6-3D2D-4E3B-AD6E-70C9F425BBFF-
+
+CCompileC build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects-normal/i386/MainViewController.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399740586.549177
+e399740586.640836
+r1
+xCompileC
+xbuild/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects-normal/i386/MainViewController.o
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Classes/MainViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection101"Compile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Classes/MainViewController.mb0c78caa8ed3b741^6f0da4aa8ed3b741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Classes/MainViewController.m0000000000000000^3903"CompileC build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects-normal/i386/MainViewController.o iSpeechPlugin/Classes/MainViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/iSpeechPlugin-generated-files.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/iSpeechPlugin-own-target-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/iSpeechPlugin-all-target-headers.hmap -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/iSpeechPlugin-project-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/usr/local/lib/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/UninstalledProducts/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/DerivedSources/i386 -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/DerivedSources -F/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -include /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iSpeechPlugin-Prefix-apwytmpkofirjxfusftlknvwtiwy/iSpeechPlugin-Prefix.pch -MMD -MT dependencies -MF /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects-normal/i386/MainViewController.d --serialize-diagnostics /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects-normal/i386/MainViewController.dia -c /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Classes/MainViewController.m -o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects-normal/i386/MainViewController.o36"44D7CB69-2AD4-4B8D-86B2-EC01B8915BF8-
+
+CCompileC build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects-normal/i386/main.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399740586.479731
+e399740586.547727
+r1
+xCompileC
+xbuild/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects-normal/i386/main.o
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/main.mde007baa8ed3b741^9d488caa8ed3b741^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/main.m0000000000000000^3803"CompileC build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects-normal/i386/main.o iSpeechPlugin/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/iSpeechPlugin-generated-files.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/iSpeechPlugin-own-target-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/iSpeechPlugin-all-target-headers.hmap -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/iSpeechPlugin-project-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/usr/local/lib/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/UninstalledProducts/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/DerivedSources/i386 -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/DerivedSources -F/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -include /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iSpeechPlugin-Prefix-apwytmpkofirjxfusftlknvwtiwy/iSpeechPlugin-Prefix.pch -MMD -MT dependencies -MF /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects-normal/i386/main.dia -c /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/main.m -o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects-normal/i386/main.o36"E15F4AFB-680B-4E69-9A75-BA7792B5BBF6-
+
+CCompileXIB /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Classes/MainViewController.xib
+s399740572.934338
+e399740585.947030
+r1
+xCompileXIB
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Classes/MainViewController.xib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compiling /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Classes/MainViewController.xib614fef9c8ed3b741^357df2a98ed3b741^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Classes/MainViewController.xib0000000000000000^1120"CompileXIB iSpeechPlugin/Classes/MainViewController.xib    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/MainViewController.nib /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Classes/MainViewController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk36"11C0A9AD-4A5E-4AC2-9040-99C7C7DDEBA8-
+
+CCopyStringsFile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/de.lproj/Localizable.strings iSpeechPlugin/Resources/de.lproj/Localizable.strings
+s399740572.934986
+e399740572.938554
+r1
+xCopyStringsFile
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/de.lproj/Localizable.strings
+xiSpeechPlugin/Resources/de.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy iSpeechPlugin/Resources/de.lproj/Localizable.strings9276ef9c8ed3b741^2349f09c8ed3b741^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/de.lproj/Localizable.strings0000000000000000^778"CopyStringsFile build/iSpeechPlugin.app/de.lproj/Localizable.strings iSpeechPlugin/Resources/de.lproj/Localizable.strings    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/de.lproj -- iSpeechPlugin/Resources/de.lproj/Localizable.strings36"EC50E7A8-4AA4-4CD1-B395-BF717F63F283-
+
+CCopyStringsFile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/en.lproj/Localizable.strings iSpeechPlugin/Resources/en.lproj/Localizable.strings
+s399740572.928979
+e399740572.932781
+r1
+xCopyStringsFile
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/en.lproj/Localizable.strings
+xiSpeechPlugin/Resources/en.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy iSpeechPlugin/Resources/en.lproj/Localizable.strings63efed9c8ed3b741^91d4ee9c8ed3b741^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/en.lproj/Localizable.strings0000000000000000^778"CopyStringsFile build/iSpeechPlugin.app/en.lproj/Localizable.strings iSpeechPlugin/Resources/en.lproj/Localizable.strings    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/en.lproj -- iSpeechPlugin/Resources/en.lproj/Localizable.strings36"C2729F10-24CD-433B-9A0D-F95A25FFBD7F-
+
+CCopyStringsFile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/es.lproj/Localizable.strings iSpeechPlugin/Resources/es.lproj/Localizable.strings
+s399740572.930103
+e399740572.933627
+r1
+xCopyStringsFile
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/es.lproj/Localizable.strings
+xiSpeechPlugin/Resources/es.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy iSpeechPlugin/Resources/es.lproj/Localizable.stringsf033ee9c8ed3b741^0b0aef9c8ed3b741^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/es.lproj/Localizable.strings0000000000000000^778"CopyStringsFile build/iSpeechPlugin.app/es.lproj/Localizable.strings iSpeechPlugin/Resources/es.lproj/Localizable.strings    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/es.lproj -- iSpeechPlugin/Resources/es.lproj/Localizable.strings36"EC949638-9A7F-442A-B8DE-BB96413D910E-
+
+CCopyStringsFile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/se.lproj/Localizable.strings iSpeechPlugin/Resources/se.lproj/Localizable.strings
+s399740572.939952
+e399740572.957174
+r1
+xCopyStringsFile
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/se.lproj/Localizable.strings
+xiSpeechPlugin/Resources/se.lproj/Localizable.strings
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy iSpeechPlugin/Resources/se.lproj/Localizable.strings73bef09c8ed3b741^001af59c8ed3b741^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/se.lproj/Localizable.strings0000000000000000^778"CopyStringsFile build/iSpeechPlugin.app/se.lproj/Localizable.strings iSpeechPlugin/Resources/se.lproj/Localizable.strings    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/se.lproj -- iSpeechPlugin/Resources/se.lproj/Localizable.strings36"8813E4F0-EB5B-4D45-9B8A-F2162074C77D-
+
+CCpResource iSpeechPlugin/Resources/icons/icon-72.png build/iSpeechPlugin.app/icon-72.png
+s399740572.921086
+e399740572.924218
+r1
+xCpResource
+xiSpeechPlugin/Resources/icons/icon-72.png
+xbuild/iSpeechPlugin.app/icon-72.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/iSpeechPlugin.app/icon-72.png54e5eb9c8ed3b741^b398ec9c8ed3b741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/icon-72.png000000000080d041^795"CpResource iSpeechPlugin/Resources/icons/icon-72.png build/iSpeechPlugin.app/icon-72.png    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/icons/icon-72.png /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app36"06823E82-6136-4395-B075-19100C8F562A-
+
+CCpResource iSpeechPlugin/Resources/icons/icon-72@2x.png build/iSpeechPlugin.app/icon-72@2x.png
+s399740572.990615
+e399740572.994136
+r1
+xCpResource
+xiSpeechPlugin/Resources/icons/icon-72@2x.png
+xbuild/iSpeechPlugin.app/icon-72@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy build/iSpeechPlugin.app/icon-72@2x.png3db6fd9c8ed3b741^6894fe9c8ed3b741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/icon-72@2x.png000000000080d041^810"CpResource "iSpeechPlugin/Resources/icons/icon-72@2x.png" "build/iSpeechPlugin.app/icon-72@2x.png"    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/icons/icon-72@2x.png" /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app36"122D1AE8-BDCD-47F1-A50D-1002B1071C0E-
+
+CCpResource iSpeechPlugin/Resources/icons/icon.png build/iSpeechPlugin.app/icon.png
+s399740572.924804
+e399740572.927642
+r1
+xCpResource
+xiSpeechPlugin/Resources/icons/icon.png
+xbuild/iSpeechPlugin.app/icon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Copy build/iSpeechPlugin.app/icon.pngf9d9ec9c8ed3b741^0f7bed9c8ed3b741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/icon.png000000000080d041^786"CpResource iSpeechPlugin/Resources/icons/icon.png build/iSpeechPlugin.app/icon.png    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/icons/icon.png /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app36"E307AC86-2750-4087-A284-49753B6AC11E-
+
+CCpResource iSpeechPlugin/Resources/icons/icon@2x.png build/iSpeechPlugin.app/icon@2x.png
+s399740572.925377
+e399740572.928872
+r1
+xCpResource
+xiSpeechPlugin/Resources/icons/icon@2x.png
+xbuild/iSpeechPlugin.app/icon@2x.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Copy build/iSpeechPlugin.app/icon@2x.pngf4fdec9c8ed3b741^47cbed9c8ed3b741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/icon@2x.png000000000080d041^801"CpResource "iSpeechPlugin/Resources/icons/icon@2x.png" "build/iSpeechPlugin.app/icon@2x.png"    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/icons/icon@2x.png" /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app36"32BA9D55-C590-482A-A667-97B49EF9A389-
+
+CCpResource iSpeechPlugin/Resources/splash/Default-568h@2x~iphone.png build/iSpeechPlugin.app/Default-568h@2x~iphone.png
+s399740572.985982
+e399740572.989317
+r1
+xCpResource
+xiSpeechPlugin/Resources/splash/Default-568h@2x~iphone.png
+xbuild/iSpeechPlugin.app/Default-568h@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/iSpeechPlugin.app/Default-568h@2x~iphone.pngb285fc9c8ed3b741^c651fd9c8ed3b741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/Default-568h@2x~iphone.png000000000080d041^848"CpResource "iSpeechPlugin/Resources/splash/Default-568h@2x~iphone.png" "build/iSpeechPlugin.app/Default-568h@2x~iphone.png"    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/splash/Default-568h@2x~iphone.png" /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app36"EC7ACCDA-6600-4456-B75D-BE3DE46BF0C4-
+
+CCpResource iSpeechPlugin/Resources/splash/Default-Landscape@2x~ipad.png build/iSpeechPlugin.app/Default-Landscape@2x~ipad.png
+s399740572.958475
+e399740572.961809
+r1
+xCpResource
+xiSpeechPlugin/Resources/splash/Default-Landscape@2x~ipad.png
+xbuild/iSpeechPlugin.app/Default-Landscape@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/iSpeechPlugin.app/Default-Landscape@2x~ipad.pnga67ff59c8ed3b741^ae46f69c8ed3b741^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/Default-Landscape@2x~ipad.png000000000080d041^857"CpResource "iSpeechPlugin/Resources/splash/Default-Landscape@2x~ipad.png" "build/iSpeechPlugin.app/Default-Landscape@2x~ipad.png"    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/splash/Default-Landscape@2x~ipad.png" /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app36"37EACFB4-2208-4659-9BFD-9D606C0091B5-
+
+CCpResource iSpeechPlugin/Resources/splash/Default-Landscape~ipad.png build/iSpeechPlugin.app/Default-Landscape~ipad.png
+s399740572.963160
+e399740572.966226
+r1
+xCpResource
+xiSpeechPlugin/Resources/splash/Default-Landscape~ipad.png
+xbuild/iSpeechPlugin.app/Default-Landscape~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/iSpeechPlugin.app/Default-Landscape~ipad.png42b0f69c8ed3b741^d367f79c8ed3b741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/Default-Landscape~ipad.png000000000080d041^848"CpResource "iSpeechPlugin/Resources/splash/Default-Landscape~ipad.png" "build/iSpeechPlugin.app/Default-Landscape~ipad.png"    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/splash/Default-Landscape~ipad.png" /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app36"7B595C11-925A-4111-BEA2-8ABB7C0B5D21-
+
+CCpResource iSpeechPlugin/Resources/splash/Default-Portrait@2x~ipad.png build/iSpeechPlugin.app/Default-Portrait@2x~ipad.png
+s399740572.968083
+e399740572.970764
+r1
+xCpResource
+xiSpeechPlugin/Resources/splash/Default-Portrait@2x~ipad.png
+xbuild/iSpeechPlugin.app/Default-Portrait@2x~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/iSpeechPlugin.app/Default-Portrait@2x~ipad.png5af3f79c8ed3b741^ab92f89c8ed3b741^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/Default-Portrait@2x~ipad.png000000000080d041^854"CpResource "iSpeechPlugin/Resources/splash/Default-Portrait@2x~ipad.png" "build/iSpeechPlugin.app/Default-Portrait@2x~ipad.png"    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/splash/Default-Portrait@2x~ipad.png" /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app36"48676867-36C4-4F4F-A119-9DF029CC3255-
+
+CCpResource iSpeechPlugin/Resources/splash/Default-Portrait~ipad.png build/iSpeechPlugin.app/Default-Portrait~ipad.png
+s399740572.972029
+e399740572.975061
+r1
+xCpResource
+xiSpeechPlugin/Resources/splash/Default-Portrait~ipad.png
+xbuild/iSpeechPlugin.app/Default-Portrait~ipad.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/iSpeechPlugin.app/Default-Portrait~ipad.png1bf5f89c8ed3b741^459df99c8ed3b741^---0#0#0#-19%DVTDocumentLocation2@116"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/Default-Portrait~ipad.png000000000080d041^845"CpResource "iSpeechPlugin/Resources/splash/Default-Portrait~ipad.png" "build/iSpeechPlugin.app/Default-Portrait~ipad.png"    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/splash/Default-Portrait~ipad.png" /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app36"DC1A5771-28C9-46FE-9DED-A0AFF053C149-
+
+CCpResource iSpeechPlugin/Resources/splash/Default@2x~iphone.png build/iSpeechPlugin.app/Default@2x~iphone.png
+s399740572.976497
+e399740572.979697
+r1
+xCpResource
+xiSpeechPlugin/Resources/splash/Default@2x~iphone.png
+xbuild/iSpeechPlugin.app/Default@2x~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Copy build/iSpeechPlugin.app/Default@2x~iphone.png2e1afa9c8ed3b741^3cdcfa9c8ed3b741^---0#0#0#-19%DVTDocumentLocation2@112"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/Default@2x~iphone.png000000000080d041^833"CpResource "iSpeechPlugin/Resources/splash/Default@2x~iphone.png" "build/iSpeechPlugin.app/Default@2x~iphone.png"    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/splash/Default@2x~iphone.png" /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app36"9AB81F0A-A553-4DEC-933E-45F3CEB990AF-
+
+CCpResource iSpeechPlugin/Resources/splash/Default~iphone.png build/iSpeechPlugin.app/Default~iphone.png
+s399740572.981492
+e399740572.984676
+r1
+xCpResource
+xiSpeechPlugin/Resources/splash/Default~iphone.png
+xbuild/iSpeechPlugin.app/Default~iphone.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/iSpeechPlugin.app/Default~iphone.png6b64fb9c8ed3b741^f624fc9c8ed3b741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/Default~iphone.png000000000080d041^824"CpResource "iSpeechPlugin/Resources/splash/Default~iphone.png" "build/iSpeechPlugin.app/Default~iphone.png"    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/Resources/splash/Default~iphone.png" /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app36"E7480F48-611B-476E-927C-A2503CD337C1-
+
+CCpResource iSpeechPlugin/config.xml build/iSpeechPlugin.app/config.xml
+s399740572.920529
+e399740572.923638
+r1
+xCpResource
+xiSpeechPlugin/config.xml
+xbuild/iSpeechPlugin.app/config.xml
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy build/iSpeechPlugin.app/config.xml05c5eb9c8ed3b741^b680ec9c8ed3b741^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/config.xml000000000080d041^760"CpResource iSpeechPlugin/config.xml build/iSpeechPlugin.app/config.xml    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/config.xml /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app36"CF759540-F12E-47F1-8E54-A45673B36B5A-
+
+CGenerateDSYMFile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app.dSYM /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/iSpeechPlugin
+s399740588.871255
+e399740589.045648
+r1
+xGenerateDSYMFile
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app.dSYM
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/iSpeechPlugin
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Generate /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app.dSYMb22ddfac8ed3b741^7db10bad8ed3b741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app.dSYM000000000080d041^782"GenerateDSYMFile build/iSpeechPlugin.app.dSYM build/iSpeechPlugin.app/iSpeechPlugin    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/iSpeechPlugin -o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app.dSYM36"A44F8BA3-0CC4-4B25-8F51-D854F9768D31-
+
+CLd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/iSpeechPlugin normal i386
+s399740586.647139
+e399740588.863441
+r1
+xLd
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/iSpeechPlugin
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Link /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/iSpeechPlugin99d7a5aa8ed3b741^9b1dddac8ed3b741^---0#0#0#--1983"Ld build/iSpeechPlugin.app/iSpeechPlugin normal i386    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -F/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -filelist /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects-normal/i386/iSpeechPlugin.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=5.0 -framework CoreLocation -framework ImageIO -framework OpenAL -framework AssetsLibrary /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/libCordova.a -framework Foundation -weak_framework UIKit -framework CoreGraphics -framework AddressBook -framework AddressBookUI -framework AudioToolbox -weak_framework AVFoundation -framework CFNetwork -framework MediaPlayer -framework QuartzCore -framework SystemConfiguration -framework MobileCoreServices -weak_framework CoreMedia -framework CoreLocation -o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/iSpeechPlugin36"1B3F6BA9-EE27-4CE8-AA90-265117019AEF-
+
+CPhaseScriptExecution "Copy www directory" /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Script-304B58A110DAC018002A0835.sh
+s399740572.624554
+e399740572.911683
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m0.263s
+ouser	0m0.054s
+osys	0m0.138s
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'4013a19c8ed3b741^d68be99c8ed3b741^-42"real	0m0.263suser	0m0.054ssys	0m0.138s3(21%IDEActivityLogMessage2@14"real	0m0.263s-399740572#1#14#-0#-----2@14"user	0m0.054s-399740572#15#14#-0#-----2@13"sys	0m0.138s-399740572#29#13#-0#-----0#0#0#--21462"PhaseScriptExecution "Copy www directory" build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Script-304B58A110DAC018002A0835.sh    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER admin    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build    setenv BUILD_ROOT /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build    setenv CACHE_ROOT /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build    setenv CONFIGURATION_TEMP_DIR /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH iSpeechPlugin.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CORDOVALIB /Users/admin/Documents/CordovaLib    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH iSpeechPlugin.app/English.lproj/Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/iSpeechPlugin.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME iSpeechPlugin.app.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH iSpeechPlugin.app/Executables    setenv EXECUTABLE_FOLDER_PATH iSpeechPlugin.app    setenv EXECUTABLE_NAME iSpeechPlugin    setenv EXECUTABLE_PATH iSpeechPlugin.app/iSpeechPlugin    setenv FILE_LIST /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH iSpeechPlugin.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME iSpeechPlugin.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OBJC_LEGACY_DISPATCH YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER iSpeechPlugin/iSpeechPlugin-Prefix.pch    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include\" \"/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/usr/local/lib/include\" \"/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/UninstalledProducts/include\" \"/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE iSpeechPlugin/iSpeechPlugin-Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH iSpeechPlugin.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH iSpeechPlugin.app/English.lproj/InfoPlist.strings    setenv INSTALL_DIR /tmp/iSpeechPlugin.dst/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER admin    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT /tmp/iSpeechPlugin.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH iSpeechPlugin.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/iSpeechPlugin-LinkMap-normal-i386.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects-normal/i386/iSpeechPlugin.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH iSpeechPlugin.app/English.lproj    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 11G63    setenv MAC_OS_X_VERSION_ACTUAL 1075    setenv MAC_OS_X_VERSION_MAJOR 1070    setenv MAC_OS_X_VERSION_MINOR 0705    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJC_ABI_VERSION 2    setenv OBJECT_FILE_DIR /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Objects-normal    setenv OBJROOT /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load \"/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/libCordova.a\" -ObjC"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH iSpeechPlugin.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PHONEGAPLIB /Users/admin/Documents/PhoneGapLib    setenv PKGINFO_FILE_PATH /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/PkgInfo    setenv PKGINFO_PATH iSpeechPlugin.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10B141    setenv PLATFORM_VERSION_AVAILABILITY_H_FORMAT 60100    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH iSpeechPlugin.app/PlugIns    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH iSpeechPlugin.app/PrivateHeaders    setenv PRODUCT_NAME iSpeechPlugin    setenv PRODUCT_SETTINGS_PATH /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/iSpeechPlugin-Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT iSpeechPlugin    setenv PROJECT_DERIVED_FILE_DIR /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/DerivedSources    setenv PROJECT_DIR /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios    setenv PROJECT_FILE_PATH /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin.xcodeproj    setenv PROJECT_NAME iSpeechPlugin    setenv PROJECT_TEMP_DIR /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build    setenv PROJECT_TEMP_ROOT /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build    setenv PUBLIC_HEADERS_FOLDER_PATH iSpeechPlugin.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH iSpeechPlugin.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk    setenv SDK_NAME iphonesimulator6.1    setenv SDK_PRODUCT_BUILD_VERSION 10B141    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH iSpeechPlugin.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH iSpeechPlugin.app/SharedSupport    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios    setenv SRCROOT /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME iSpeechPlugin    setenv TARGET_BUILD_DIR /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build    setenv TARGET_NAME iSpeechPlugin    setenv TARGET_TEMP_DIR /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build    setenv TEMP_DIR /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build    setenv TEMP_FILES_DIR /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build    setenv TEMP_FILE_DIR /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build    setenv TEMP_ROOT /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH iSpeechPlugin.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER admin    setenv USER_APPS_DIR /Users/admin/Applications    setenv USER_LIBRARY_DIR /Users/admin/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH iSpeechPlugin.app/version.plist    setenv VERSION_INFO_BUILDER admin    setenv VERSION_INFO_FILE iSpeechPlugin_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:iSpeechPlugin  PROJECT:iSpeechPlugin-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME iSpeechPlugin.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4H1003    setenv XCODE_VERSION_ACTUAL 0462    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0460    setenv YACC yacc    /bin/sh -c /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/Script-304B58A110DAC018002A0835.sh36"8622C658-D04B-4CD5-9A31-3144544650B6-
+
+CProcessInfoPlistFile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/Info.plist iSpeechPlugin/iSpeechPlugin-Info.plist
+s399740572.611306
+e399740572.615622
+r1
+xProcessInfoPlistFile
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/Info.plist
+xiSpeechPlugin/iSpeechPlugin-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Process iSpeechPlugin/iSpeechPlugin-Info.plist629f9c9c8ed3b741^209a9d9c8ed3b741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/iSpeechPlugin-Info.plist0000000000000000^835"ProcessInfoPlistFile build/iSpeechPlugin.app/Info.plist iSpeechPlugin/iSpeechPlugin-Info.plist    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-infoPlistUtility iSpeechPlugin/iSpeechPlugin-Info.plist -genpkginfo /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app/Info.plist36"39F07C53-290D-4927-9305-8A0898CE112E-
+
+CProcessPCH /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iSpeechPlugin-Prefix-apwytmpkofirjxfusftlknvwtiwy/iSpeechPlugin-Prefix.pch.pth iSpeechPlugin/iSpeechPlugin-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399740585.956154
+e399740586.472538
+r1
+xProcessPCH
+x/var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iSpeechPlugin-Prefix-apwytmpkofirjxfusftlknvwtiwy/iSpeechPlugin-Prefix.pch.pth
+xiSpeechPlugin/iSpeechPlugin-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection49"Precompile iSpeechPlugin/iSpeechPlugin-Prefix.pch5ef5f4a98ed3b741^40f878aa8ed3b741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/iSpeechPlugin-Prefix.pch0000000000000000^3825"ProcessPCH /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iSpeechPlugin-Prefix-apwytmpkofirjxfusftlknvwtiwy/iSpeechPlugin-Prefix.pch.pth iSpeechPlugin/iSpeechPlugin-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/iSpeechPlugin-generated-files.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/iSpeechPlugin-own-target-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/iSpeechPlugin-all-target-headers.hmap -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/iSpeechPlugin-project-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/usr/local/lib/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/UninstalledProducts/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/DerivedSources/i386 -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.build/Debug-iphonesimulator/iSpeechPlugin.build/DerivedSources -F/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build --serialize-diagnostics /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iSpeechPlugin-Prefix-apwytmpkofirjxfusftlknvwtiwy/iSpeechPlugin-Prefix.pch.dia -c /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/iSpeechPlugin/iSpeechPlugin-Prefix.pch -o /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iSpeechPlugin-Prefix-apwytmpkofirjxfusftlknvwtiwy/iSpeechPlugin-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/iSpeechPlugin-Prefix-apwytmpkofirjxfusftlknvwtiwy/iSpeechPlugin-Prefix.pch.d36"98F33B73-06D3-4CF9-A9BA-A86919ABB9DF-
+
+CTouch /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app
+s399740589.054566
+e399740589.086295
+r1
+xTouch
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Touch /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app2b170ead8ed3b741^c21716ad8ed3b741^---0#0#0#--553"Touch build/iSpeechPlugin.app    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /usr/bin/touch -c /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/iSpeechPlugin.app36"D92FBAE0-6DE5-4DA8-8153-6F122EDD38B7-
+

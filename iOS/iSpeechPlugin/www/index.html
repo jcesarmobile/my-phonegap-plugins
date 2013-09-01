@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <title>Hello World</title>
+    </head>
+    <body>
+        <div class="app">
+            <input type="text" id="message">
+            <input type="button" onClick="speak();" value="Speak">
+            <input type="button" onClick="listen();" value="Listen">
+        </div>
+        <script type="text/javascript" src="phonegap.js"></script>
+        <script type="text/javascript" src="js/TTSAndSpeechRecognitionPlugin.js"></script>
+        <script type="text/javascript">
+            document.addEventListener("deviceready",onDeviceReady,false);
+            function onDeviceReady() {
+               //here put some code you want to execute on device ready
+            }
+            
+            
+            
+            function speak(){
+                var msg = document.getElementById("message");
+                window.TTSPlugin.speak(speakPluginResultHandler,nativePluginErrorHandler,msg.value);
+                msg.value = "";
+                
+            }
+            
+            function listen(){
+                window.TTSPlugin.recognize(recognizePluginResultHandler,nativePluginErrorHandler);
+                
+            }
+            
+            function recognizePluginResultHandler (result) {
+                console.log("ok "+result);
+                var msg = document.getElementById("message");
+                msg.value = result;
+                
+                setTimeout(function () {
+                           window.TTSPlugin.speak(speakPluginResultHandler,nativePluginErrorHandler,result);
+                           }, 100);
+                
+            }
+            
+            function speakPluginResultHandler (result) {
+                console.log("speak finished ok");
+                
+            }
+            
+            function nativePluginErrorHandler (result) {
+                
+                console.log("error: "+result);
+            }
+            
+            </script>
+    </body>
+</html>

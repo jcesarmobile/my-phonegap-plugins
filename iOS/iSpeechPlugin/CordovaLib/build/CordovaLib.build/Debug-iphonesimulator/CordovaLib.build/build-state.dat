@@ -1,0 +1,1034 @@
+TCordovaLib
+v5
+r1
+cCheck dependencies
+cCpHeader Classes/NSDictionary+Extensions.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/NSDictionary+Extensions.h
+cCpHeader Classes/CDVInvokedUrlCommand.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
+cCpHeader Classes/NSData+Base64.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/NSData+Base64.h
+cCpHeader Classes/CDVPluginResult.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVPluginResult.h
+cCpHeader Classes/CDVPlugin.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVPlugin.h
+cCpHeader Classes/CDVDebug.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVDebug.h
+cCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
+cCpHeader Classes/CDVWhitelist.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVWhitelist.h
+cCpHeader Classes/CDVURLProtocol.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVURLProtocol.h
+cCpHeader Classes/CDVViewController.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVViewController.h
+cCpHeader Classes/CDVCommandDelegate.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
+cCpHeader Classes/CDV.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDV.h
+cCpHeader Classes/CDVAvailability.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVAvailability.h
+cCpHeader Classes/CDVLocalStorage.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVLocalStorage.h
+cCpHeader Classes/UIDevice+Extensions.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/UIDevice+Extensions.h
+cCpHeader Classes/NSArray+Comparisons.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/NSArray+Comparisons.h
+cCpHeader Classes/CDVEcho.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVEcho.h
+cCpHeader Classes/CDVCommandQueue.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVCommandQueue.h
+cCpHeader Classes/CDVCommandDelegateImpl.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h
+cCpHeader Classes/CDVShared.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVShared.h
+cCpHeader Classes/CDVScreenOrientationDelegate.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
+cCpHeader Classes/CDVConfigParser.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVConfigParser.h
+cCpHeader Classes/CDVJSON.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVJSON.h
+cCpHeader Classes/CDVWebViewDelegate.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVWebViewDelegate.h
+cCpHeader Classes/CDVUserAgentUtil.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVUserAgentUtil.h
+cCpHeader Classes/CDVTimer.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVTimer.h
+cProcessPCH /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcghfmltygwfcnbropuryzmihgmp/CordovaLib_Prefix.pch.pth CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVEcho.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVEcho.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/libCordova.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
+c0000000050EDEAFB0000000000000110
+t1357769467
+s272
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDV.h
+c000000005223570C0000000000000516
+t1378047756
+s1302
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+c000000005223570C0000000000000C65
+t1378047756
+s3173
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+c000000005223570C00000000000008BA
+t1378047756
+s2234
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+c000000005223570C0000000000000473
+t1378047756
+s1139
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+c000000005223570C000000000000126E
+t1378047756
+s4718
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+c000000005223570C0000000000000501
+t1378047756
+s1281
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+c000000005223570C000000000000152E
+t1378047756
+s5422
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+c000000005223570C00000000000004CB
+t1378047756
+s1227
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+c000000005223570C0000000000000E0D
+t1378047756
+s3597
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVDebug.h
+c000000005223570C0000000000000401
+t1378047756
+s1025
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVEcho.h
+c000000005223570C0000000000000342
+t1378047756
+s834
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVEcho.m
+c000000005223570C00000000000008DA
+t1378047756
+s2266
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+c000000005223570C00000000000007E6
+t1378047756
+s2022
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+c000000005223570C0000000000000DDE
+t1378047756
+s3550
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVJSON.h
+c000000005223570C00000000000003DA
+t1378047756
+s986
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVJSON.m
+c000000005223570C000000000000098E
+t1378047756
+s2446
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+c000000005223570C00000000000006CF
+t1378047756
+s1743
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+c000000005223570C0000000000004C6C
+t1378047756
+s19564
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+c000000005223570C0000000000000892
+t1378047756
+s2194
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+c000000005223570C00000000000016AE
+t1378047756
+s5806
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+c000000005223570C0000000000000C13
+t1378047756
+s3091
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+c000000005223570C0000000000001B29
+t1378047756
+s6953
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+c000000005223570C0000000000000408
+t1378047756
+s1032
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVShared.h
+c000000005223570C00000000000003E6
+t1378047756
+s998
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVShared.m
+c000000005223570C00000000000006B6
+t1378047756
+s1718
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVTimer.h
+c000000005223570C000000000000038D
+t1378047756
+s909
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVTimer.m
+c000000005223570C0000000000000AA2
+t1378047756
+s2722
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+c000000005223570C000000000000041C
+t1378047756
+s1052
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+c000000005223570C0000000000002514
+t1378047756
+s9492
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+c000000005223570C0000000000000421
+t1378047756
+s1057
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+c000000005223570C00000000000012A2
+t1378047756
+s4770
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVViewController.h
+c000000005223570C0000000000000ACC
+t1378047756
+s2764
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVViewController.m
+c000000005223570C0000000000008568
+t1378047756
+s34152
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+c000000005223570C00000000000005A2
+t1378047756
+s1442
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+c000000005223570C00000000000037C6
+t1378047756
+s14278
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+c000000005223570C00000000000004B4
+t1378047756
+s1204
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+c000000005223570C0000000000002216
+t1378047756
+s8726
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+c000000005223570C0000000000000392
+t1378047756
+s914
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+c000000005223570C00000000000004D8
+t1378047756
+s1240
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+c000000005223570C000000000000037D
+t1378047756
+s893
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+c000000005223570C00000000000022CC
+t1378047756
+s8908
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+c000000005223570C00000000000005DA
+t1378047756
+s1498
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+c000000005223570C0000000000001059
+t1378047756
+s4185
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+c000000005223570C00000000000003A0
+t1378047756
+s928
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+c000000005223570C0000000000000584
+t1378047756
+s1412
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+c000000005223570C0000000000000476
+t1378047756
+s1142
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+c000000005223570C0000000000000620
+t1378047756
+s1568
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/CordovaLib_Prefix.pch
+c000000005223570C0000000000000346
+t1378047756
+s838
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o
+t1378047772
+s88788
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o
+t1378047771
+s85904
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o
+t1378047772
+s26916
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVEcho.o
+t1378047771
+s75160
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o
+t1378047770
+s18608
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o
+t1378047772
+s10684
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o
+t1378047771
+s135884
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o
+t1378047770
+s85796
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o
+t1378047770
+s37592
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o
+t1378047772
+s9280
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o
+t1378047772
+s22976
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o
+t1378047771
+s97408
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o
+t1378047772
+s78972
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o
+t1378047772
+s194716
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o
+t1378047772
+s97004
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o
+t1378047770
+s30912
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList
+c00000000522357160000000000000D51
+t1378047766
+s3409
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o
+t1378047771
+s7364
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o
+t1378047770
+s11236
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o
+t1378047770
+s17768
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o
+t1378047770
+s6880
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o
+t1378047771
+s9564
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDV.h
+t1378047766
+s1302
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVAvailability.h
+t1378047766
+s3173
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
+t1378047766
+s2234
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h
+t1378047766
+s1139
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVCommandQueue.h
+t1378047766
+s1281
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVConfigParser.h
+t1378047766
+s1227
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVDebug.h
+t1378047766
+s1025
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVEcho.h
+t1378047766
+s834
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
+t1378047766
+s2022
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVJSON.h
+t1378047766
+s986
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVLocalStorage.h
+t1378047766
+s1743
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVPlugin.h
+t1378047766
+s2194
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVPluginResult.h
+t1378047766
+s3091
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
+t1378047766
+s1032
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVShared.h
+t1378047766
+s998
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVTimer.h
+t1378047766
+s909
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVURLProtocol.h
+t1378047766
+s1052
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVUserAgentUtil.h
+t1378047766
+s1057
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVViewController.h
+t1378047766
+s2764
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVWebViewDelegate.h
+t1378047766
+s1442
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVWhitelist.h
+t1378047766
+s1204
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/NSArray+Comparisons.h
+t1378047766
+s914
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/NSData+Base64.h
+t1378047766
+s893
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/NSDictionary+Extensions.h
+t1378047766
+s1498
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
+t1378047766
+s928
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/UIDevice+Extensions.h
+t1378047766
+s1142
+
+N/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/libCordova.a
+t1378047772
+s1156936
+
+N/var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcghfmltygwfcnbropuryzmihgmp/CordovaLib_Prefix.pch.pth
+t1378047769
+s2841808
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesc93af03c8fd3b741^0c5c123d8fd3b741^---0#1#0#--18"Check dependencies36"78992E02-DE66-42CE-9020-D9EA689A0A16-
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399740571.981821
+e399740572.180396
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m8f8afb9b8ed3b741^183e2e9c8ed3b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m0000000000000000^3970"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -DDEBUG -include /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcghfmltygwfcnbropuryzmihgmp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.d --serialize-diagnostics /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.dia -c /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m -o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o36"ED3B0709-5B04-43A7-8527-9603E1E0383C-
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399740571.751076
+e399740571.980439
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVCommandQueue.mac73c09b8ed3b741^5c03fb9b8ed3b741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m0000000000000000^3928"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -DDEBUG -include /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcghfmltygwfcnbropuryzmihgmp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.d --serialize-diagnostics /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.dia -c /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m -o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o36"4E83E029-F8B0-4509-BF16-754A53297D19-
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399740572.181733
+e399740572.232204
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVConfigParser.m2db52e9c8ed3b741^5e823b9c8ed3b741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVConfigParser.m0000000000000000^3928"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -DDEBUG -include /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcghfmltygwfcnbropuryzmihgmp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.d --serialize-diagnostics /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.dia -c /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVConfigParser.m -o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o36"1102AA4C-F949-4CDD-A319-7F0F1ADC7F07-
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVEcho.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVEcho.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399740571.555580
+e399740571.749586
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVEcho.o
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVEcho.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVEcho.m41678e9b8ed3b741^52edbf9b8ed3b741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVEcho.m0000000000000000^3880"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVEcho.o Classes/CDVEcho.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -DDEBUG -include /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcghfmltygwfcnbropuryzmihgmp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVEcho.d --serialize-diagnostics /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVEcho.dia -c /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVEcho.m -o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVEcho.o36"FC49EE85-C7E5-49CF-B6C9-910E1CF8E445-
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399740569.851953
+e399740570.210083
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.me04ada998ed3b741^fad4359a8ed3b741^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m0000000000000000^3958"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -DDEBUG -include /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcghfmltygwfcnbropuryzmihgmp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.d --serialize-diagnostics /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.dia -c /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m -o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o36"435A6921-C8FA-49FF-8B6B-7BBD8E3CD273-
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399740572.214539
+e399740572.251198
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVJSON.m8319379c8ed3b741^075f409c8ed3b741^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVJSON.m0000000000000000^3880"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -DDEBUG -include /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcghfmltygwfcnbropuryzmihgmp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.d --serialize-diagnostics /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.dia -c /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVJSON.m -o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o36"37375082-C269-46D8-9654-F6A98CAB550F-
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399740571.012833
+e399740571.290749
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m289a039b8ed3b741^30824a9b8ed3b741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m0000000000000000^3928"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -DDEBUG -include /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcghfmltygwfcnbropuryzmihgmp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.d --serialize-diagnostics /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.dia -c /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m -o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o36"C4F50E34-63AA-4F2D-9C90-4A22685498F3-
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399740570.276660
+e399740570.995627
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVPlugin.m0404479a8ed3b741^52f2fe9a8ed3b741^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVPlugin.m0000000000000000^3892"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -DDEBUG -include /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcghfmltygwfcnbropuryzmihgmp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.d --serialize-diagnostics /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.dia -c /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVPlugin.m -o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o36"42796C8C-80B1-4AC2-A874-7C1FC7DE23D1-
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399740570.212124
+e399740570.275219
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVPluginResult.m0379369a8ed3b741^8885469a8ed3b741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVPluginResult.m0000000000000000^3928"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -DDEBUG -include /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcghfmltygwfcnbropuryzmihgmp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.d --serialize-diagnostics /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.dia -c /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVPluginResult.m -o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o36"E9245FCD-0E5F-472A-B4BA-FBAB6406CB70-
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399740572.460812
+e399740572.510878
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVShared.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVShared.m5628769c8ed3b741^b4c8829c8ed3b741^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVShared.m0000000000000000^3892"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -DDEBUG -include /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcghfmltygwfcnbropuryzmihgmp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.d --serialize-diagnostics /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.dia -c /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVShared.m -o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o36"12FB085C-CD5D-441A-8B3D-CE1821E64C6C-
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399740572.430527
+e399740572.477700
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVTimer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVTimer.m7f686e9c8ed3b741^1c5c7a9c8ed3b741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVTimer.m0000000000000000^3886"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -DDEBUG -include /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcghfmltygwfcnbropuryzmihgmp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.d --serialize-diagnostics /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.dia -c /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVTimer.m -o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o36"99466905-0E12-4EB8-A99F-AF893D8970EF-
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399740570.430539
+e399740571.011530
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m666a6e9a8ed3b741^2504039b8ed3b741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m0000000000000000^3922"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -DDEBUG -include /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcghfmltygwfcnbropuryzmihgmp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.d --serialize-diagnostics /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.dia -c /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m -o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o36"514E05E8-868E-46AE-B8EF-FC66E94C969A-
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399740572.233507
+e399740572.428765
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Compile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.mb6f53b9c8ed3b741^9ed26d9c8ed3b741^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m0000000000000000^3934"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -DDEBUG -include /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcghfmltygwfcnbropuryzmihgmp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.d --serialize-diagnostics /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.dia -c /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m -o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o36"3972BDE9-A3F1-4161-94EB-3E9133581B3A-
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399740570.997398
+e399740572.212863
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVViewController.m658cff9a8ed3b741^897d369c8ed3b741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVViewController.m0000000000000000^3940"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -DDEBUG -include /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcghfmltygwfcnbropuryzmihgmp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.d --serialize-diagnostics /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.dia -c /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVViewController.m -o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o36"73F86BAB-DFF4-491C-9514-29FBFE2EEA9F-
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399740572.252500
+e399740572.459510
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m17d3409c8ed3b741^35b4759c8ed3b741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m0000000000000000^3946"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -DDEBUG -include /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcghfmltygwfcnbropuryzmihgmp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.d --serialize-diagnostics /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.dia -c /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m -o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o36"C3832545-BEED-40A1-A56C-302E0B3AE2CE-
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399740570.359737
+e399740570.429130
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVWhitelist.m5a485c9a8ed3b741^b3ec6d9a8ed3b741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVWhitelist.m0000000000000000^3910"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -DDEBUG -include /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcghfmltygwfcnbropuryzmihgmp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.d --serialize-diagnostics /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.dia -c /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVWhitelist.m -o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o36"8FE00165-CBD1-44A3-B86D-9F675B96D151-
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399740571.492799
+e399740571.554228
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m64577e9b8ed3b741^cff58d9b8ed3b741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m0000000000000000^3952"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -DDEBUG -include /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcghfmltygwfcnbropuryzmihgmp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.d --serialize-diagnostics /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.dia -c /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m -o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o36"56649D60-0391-41FD-BF7F-B15A80854F41-
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399740570.211470
+e399740570.285148
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Compile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSData+Base64.mdb4f369a8ed3b741^cb12499a8ed3b741^---0#0#0#-19%DVTDocumentLocation2@101"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSData+Base64.m0000000000000000^3916"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -DDEBUG -include /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcghfmltygwfcnbropuryzmihgmp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.d --serialize-diagnostics /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.dia -c /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSData+Base64.m -o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o36"D798AFF0-8C14-4513-ADCE-04807972ACD1-
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399740569.851955
+e399740570.210346
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m834cda998ed3b741^d6c9359a8ed3b741^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m0000000000000000^3976"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -DDEBUG -include /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcghfmltygwfcnbropuryzmihgmp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.d --serialize-diagnostics /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.dia -c /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m -o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o36"B2DD5642-A871-45E6-9F50-296597563110-
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399740570.287100
+e399740570.358432
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.ma7b1499a8ed3b741^0bd35b9a8ed3b741^---0#0#0#-19%DVTDocumentLocation2@117"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m0000000000000000^4012"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -DDEBUG -include /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcghfmltygwfcnbropuryzmihgmp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.d --serialize-diagnostics /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.dia -c /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m -o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o36"E699DE45-A5BD-469E-B7F1-BF71615D4BC2-
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399740571.292099
+e399740571.491419
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m7ffb4a9b8ed3b741^f0de7d9b8ed3b741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m0000000000000000^3952"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -DDEBUG -include /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcghfmltygwfcnbropuryzmihgmp/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.d --serialize-diagnostics /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.dia -c /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m -o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o36"1D7ED856-4618-47CD-AE54-B11E4152616C-
+
+CCpHeader Classes/CDV.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDV.h
+s399740566.819989
+e399740566.825415
+r1
+xCpHeader
+xClasses/CDV.h
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDV.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Copy /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDV.hf27cd2968ed3b741^7f6bd3968ed3b741^---0#0#0#-19%DVTDocumentLocation2@94"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDV.h000000000080d041^800"CpHeader Classes/CDV.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDV.h    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDV.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova36"926D5DF6-1856-4A38-ABE1-F62C69AE6F05-
+
+CCpHeader Classes/CDVAvailability.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVAvailability.h
+s399740566.820176
+e399740566.824087
+r1
+xCpHeader
+xClasses/CDVAvailability.h
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVAvailability.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVAvailability.h185dd2968ed3b741^a302d3968ed3b741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVAvailability.h000000000080d041^836"CpHeader Classes/CDVAvailability.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVAvailability.h    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVAvailability.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova36"4E9D3362-8E7E-42EA-AAA3-51F62ED46EBF-
+
+CCpHeader Classes/CDVCommandDelegate.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
+s399740566.812411
+e399740566.817836
+r1
+xCpHeader
+xClasses/CDVCommandDelegate.h
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Copy /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVCommandDelegate.h8813d0968ed3b741^d7c1d1968ed3b741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVCommandDelegate.h000000000080d041^845"CpHeader Classes/CDVCommandDelegate.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVCommandDelegate.h    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova36"084BECD3-4F99-46D5-AEB3-189BB611C729-
+
+CCpHeader Classes/CDVCommandDelegateImpl.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h
+s399740566.842257
+e399740566.845021
+r1
+xCpHeader
+xClasses/CDVCommandDelegateImpl.h
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Copy /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.hadbdd7968ed3b741^016cd8968ed3b741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h000000000080d041^857"CpHeader Classes/CDVCommandDelegateImpl.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova36"C324419A-3F82-48DC-9E49-3D14CFB7666C-
+
+CCpHeader Classes/CDVCommandQueue.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVCommandQueue.h
+s399740566.837872
+e399740566.843003
+r1
+xCpHeader
+xClasses/CDVCommandQueue.h
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVCommandQueue.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVCommandQueue.haa9cd6968ed3b741^8fdfd7968ed3b741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVCommandQueue.h000000000080d041^836"CpHeader Classes/CDVCommandQueue.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVCommandQueue.h    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova36"F1421484-C2B4-48B1-89CB-06716EFDC8DE-
+
+CCpHeader Classes/CDVConfigParser.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVConfigParser.h
+s399740566.850076
+e399740566.853464
+r1
+xCpHeader
+xClasses/CDVConfigParser.h
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVConfigParser.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVConfigParser.h2bc2d9968ed3b741^ca89da968ed3b741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVConfigParser.h000000000080d041^836"CpHeader Classes/CDVConfigParser.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVConfigParser.h    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVConfigParser.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova36"03A161BD-266C-4ADE-9AC2-E7C06A064913-
+
+CCpHeader Classes/CDVDebug.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVDebug.h
+s399740566.788033
+e399740566.805627
+r1
+xCpHeader
+xClasses/CDVDebug.h
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVDebug.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Copy /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVDebug.h77dbc9968ed3b741^8d46ce968ed3b741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVDebug.h000000000080d041^815"CpHeader Classes/CDVDebug.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVDebug.h    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVDebug.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova36"9529E66A-3AFC-4BE8-870A-46346B0F82A0-
+
+CCpHeader Classes/CDVEcho.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVEcho.h
+s399740566.834167
+e399740566.838620
+r1
+xCpHeader
+xClasses/CDVEcho.h
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVEcho.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Copy /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVEcho.h65a9d5968ed3b741^e5b9d6968ed3b741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVEcho.h000000000080d041^812"CpHeader Classes/CDVEcho.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVEcho.h    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVEcho.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova36"04A350EB-402E-4CF4-B00E-825006872DBF-
+
+CCpHeader Classes/CDVInvokedUrlCommand.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
+s399740566.738028
+e399740566.756008
+r1
+xCpHeader
+xClasses/CDVInvokedUrlCommand.h
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Copy /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h630bbd968ed3b741^f69bc1968ed3b741^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h000000000080d041^851"CpHeader Classes/CDVInvokedUrlCommand.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova36"63AE124B-545D-4A61-AD8A-D345025D9897-
+
+CCpHeader Classes/CDVJSON.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVJSON.h
+s399740566.853970
+e399740566.857052
+r1
+xCpHeader
+xClasses/CDVJSON.h
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVJSON.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Copy /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVJSON.h28bada968ed3b741^836adb968ed3b741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVJSON.h000000000080d041^812"CpHeader Classes/CDVJSON.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVJSON.h    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVJSON.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova36"4932A07E-2802-465D-B27D-4E7918EB4A88-
+
+CCpHeader Classes/CDVLocalStorage.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVLocalStorage.h
+s399740566.825589
+e399740566.830105
+r1
+xCpHeader
+xClasses/CDVLocalStorage.h
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVLocalStorage.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVLocalStorage.h878cd3968ed3b741^2e90d4968ed3b741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVLocalStorage.h000000000080d041^836"CpHeader Classes/CDVLocalStorage.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVLocalStorage.h    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova36"0762FE6F-BDFC-47C3-8856-AC5B2B992834-
+
+CCpHeader Classes/CDVPlugin.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVPlugin.h
+s399740566.770227
+e399740566.797003
+r1
+xCpHeader
+xClasses/CDVPlugin.h
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVPlugin.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Copy /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVPlugin.hb649c5968ed3b741^7446cc968ed3b741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVPlugin.h000000000080d041^818"CpHeader Classes/CDVPlugin.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVPlugin.h    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVPlugin.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova36"D1C93D8C-6E47-469A-8393-B2B573FBF46B-
+
+CCpHeader Classes/CDVPluginResult.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVPluginResult.h
+s399740566.758147
+e399740566.775451
+r1
+xCpHeader
+xClasses/CDVPluginResult.h
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVPluginResult.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Copy /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVPluginResult.h1230c2968ed3b741^0185c6968ed3b741^---0#0#0#-19%DVTDocumentLocation2@106"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVPluginResult.h000000000080d041^836"CpHeader Classes/CDVPluginResult.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVPluginResult.h    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVPluginResult.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova36"37B0888C-508B-437C-A68C-D1FBE32D58FA-
+
+CCpHeader Classes/CDVScreenOrientationDelegate.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
+s399740566.846461
+e399740566.850925
+r1
+xCpHeader
+xClasses/CDVScreenOrientationDelegate.h
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Copy /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h35d0d8968ed3b741^43e7d9968ed3b741^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h000000000080d041^875"CpHeader Classes/CDVScreenOrientationDelegate.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova36"930D5905-566B-4B99-A335-630A263FBAC3-
+
+CCpHeader Classes/CDVShared.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVShared.h
+s399740566.844673
+e399740566.848367
+r1
+xCpHeader
+xClasses/CDVShared.h
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVShared.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Copy /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVShared.h1059d8968ed3b741^6d3bd9968ed3b741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVShared.h000000000080d041^818"CpHeader Classes/CDVShared.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVShared.h    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVShared.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova36"519FEC77-D327-4A40-900A-A9A8CE2B8554-
+
+CCpHeader Classes/CDVTimer.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVTimer.h
+s399740566.859346
+e399740566.862927
+r1
+xCpHeader
+xClasses/CDVTimer.h
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVTimer.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Copy /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVTimer.hd718dc968ed3b741^63f0dc968ed3b741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVTimer.h000000000080d041^815"CpHeader Classes/CDVTimer.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVTimer.h    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVTimer.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova36"17A6B8AB-9BF5-4A00-9CC6-46C45E60257D-
+
+CCpHeader Classes/CDVURLProtocol.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVURLProtocol.h
+s399740566.808544
+e399740566.811770
+r1
+xCpHeader
+xClasses/CDVURLProtocol.h
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVURLProtocol.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Copy /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVURLProtocol.h9016cf968ed3b741^c0d0cf968ed3b741^---0#0#0#-19%DVTDocumentLocation2@105"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVURLProtocol.h000000000080d041^833"CpHeader Classes/CDVURLProtocol.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVURLProtocol.h    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova36"BA47D5C3-4B17-4A8D-8EB8-2C934A833DEE-
+
+CCpHeader Classes/CDVUserAgentUtil.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVUserAgentUtil.h
+s399740566.858530
+e399740566.862940
+r1
+xCpHeader
+xClasses/CDVUserAgentUtil.h
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVUserAgentUtil.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Copy /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVUserAgentUtil.h47e4db968ed3b741^5af6dc968ed3b741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVUserAgentUtil.h000000000080d041^839"CpHeader Classes/CDVUserAgentUtil.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVUserAgentUtil.h    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova36"4BC18115-C61C-44BC-BB3D-63BB3F72945F-
+
+CCpHeader Classes/CDVViewController.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVViewController.h
+s399740566.812014
+e399740566.815256
+r1
+xCpHeader
+xClasses/CDVViewController.h
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVViewController.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Copy /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVViewController.hf4facf968ed3b741^9cc0d0968ed3b741^---0#0#0#-19%DVTDocumentLocation2@108"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVViewController.h000000000080d041^842"CpHeader Classes/CDVViewController.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVViewController.h    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVViewController.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova36"DEDC49C4-DDC3-48CB-8013-807014AEE5BA-
+
+CCpHeader Classes/CDVWebViewDelegate.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVWebViewDelegate.h
+s399740566.854664
+e399740566.858120
+r1
+xCpHeader
+xClasses/CDVWebViewDelegate.h
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVWebViewDelegate.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Copy /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVWebViewDelegate.h21e6da968ed3b741^bfb5db968ed3b741^---0#0#0#-19%DVTDocumentLocation2@109"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVWebViewDelegate.h000000000080d041^845"CpHeader Classes/CDVWebViewDelegate.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVWebViewDelegate.h    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova36"9D276468-4CE5-4FB4-9C1B-727D54D74C65-
+
+CCpHeader Classes/CDVWhitelist.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVWhitelist.h
+s399740566.807931
+e399740566.810860
+r1
+xCpHeader
+xClasses/CDVWhitelist.h
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVWhitelist.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Copy /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVWhitelist.hd0f0ce968ed3b741^d994cf968ed3b741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVWhitelist.h000000000080d041^827"CpHeader Classes/CDVWhitelist.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/CDVWhitelist.h    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/CDVWhitelist.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova36"0E87B84F-5A67-4E8E-B203-7684A9DF6BEA-
+
+CCpHeader Classes/NSArray+Comparisons.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/NSArray+Comparisons.h
+s399740566.832293
+e399740566.836619
+r1
+xCpHeader
+xClasses/NSArray+Comparisons.h
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/NSArray+Comparisons.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/NSArray+Comparisons.h2331d5968ed3b741^1157d6968ed3b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/NSArray+Comparisons.h000000000080d041^848"CpHeader Classes/NSArray+Comparisons.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/NSArray+Comparisons.h    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova36"2D2CC20C-3D2D-452D-8D5C-6D63C24426C7-
+
+CCpHeader Classes/NSData+Base64.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/NSData+Base64.h
+s399740566.757471
+e399740566.768939
+r1
+xCpHeader
+xClasses/NSData+Base64.h
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/NSData+Base64.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection93"Copy /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/NSData+Base64.h1808c2968ed3b741^2ee5c4968ed3b741^---0#0#0#-19%DVTDocumentLocation2@104"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/NSData+Base64.h000000000080d041^830"CpHeader Classes/NSData+Base64.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/NSData+Base64.h    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSData+Base64.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova36"D25C500C-4180-41D7-84F0-34433F599A69-
+
+CCpHeader Classes/NSDictionary+Extensions.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/NSDictionary+Extensions.h
+s399740566.737346
+e399740566.756003
+r1
+xCpHeader
+xClasses/NSDictionary+Extensions.h
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/NSDictionary+Extensions.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Copy /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/NSDictionary+Extensions.h34f3bc968ed3b741^7592c1968ed3b741^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/NSDictionary+Extensions.h000000189e041042^860"CpHeader Classes/NSDictionary+Extensions.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/NSDictionary+Extensions.h    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova36"7A46B3E2-C01A-4AED-A4D0-BAD681C5A365-
+
+CCpHeader Classes/NSMutableArray+QueueAdditions.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
+s399740566.803244
+e399740566.807436
+r1
+xCpHeader
+xClasses/NSMutableArray+QueueAdditions.h
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Copy /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h5dc2cd968ed3b741^51bcce968ed3b741^---0#0#0#-19%DVTDocumentLocation2@120"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h000000000080d041^878"CpHeader Classes/NSMutableArray+QueueAdditions.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova36"DE10779B-CF8C-4D64-B086-6F7E2046FB17-
+
+CCpHeader Classes/UIDevice+Extensions.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/UIDevice+Extensions.h
+s399740566.826864
+e399740566.832848
+r1
+xCpHeader
+xClasses/UIDevice+Extensions.h
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/UIDevice+Extensions.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Copy /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/UIDevice+Extensions.h96ced3968ed3b741^603ed5968ed3b741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/UIDevice+Extensions.h000000000080d041^848"CpHeader Classes/UIDevice+Extensions.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova/UIDevice+Extensions.h    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include/Cordova36"F1EB0DD4-BF6C-41B1-8D9D-69852D46860A-
+
+CLibtool /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/libCordova.a normal i386
+s399740572.518519
+e399740572.574417
+r1
+xLibtool
+x/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/libCordova.a
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Libtool /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/libCordova.a normal i386fbe8849c8ed3b741^520d939c8ed3b741^---0#0#0#--1127"Libtool /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/libCordova.a normal i386    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -filelist /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList -o /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/libCordova.a36"2D6CE71C-4A56-46C1-8CD6-A90481F7D1DB-
+
+CProcessPCH /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcghfmltygwfcnbropuryzmihgmp/CordovaLib_Prefix.pch.pth CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s399740566.873820
+e399740569.844230
+r1
+xProcessPCH
+x/var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcghfmltygwfcnbropuryzmihgmp/CordovaLib_Prefix.pch.pth
+xCordovaLib_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Precompile CordovaLib_Prefix.pch28f3df968ed3b741^da1fd8998ed3b741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/CordovaLib_Prefix.pch0000000000000000^3835"ProcessPCH /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcghfmltygwfcnbropuryzmihgmp/CordovaLib_Prefix.pch.pth CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/local/mysql/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/admin/Documents/android-sdk-macosx/tools:/Users/admin/Documents/android-sdk-macosx/platform-tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/build -DDEBUG --serialize-diagnostics /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcghfmltygwfcnbropuryzmihgmp/CordovaLib_Prefix.pch.dia -c /Users/admin/PROYECTOS/iSpeechPlugin/platforms/ios/CordovaLib/CordovaLib_Prefix.pch -o /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcghfmltygwfcnbropuryzmihgmp/CordovaLib_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/j0/bsh29rcd5fzgdn8n9s7q37wr0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcghfmltygwfcnbropuryzmihgmp/CordovaLib_Prefix.pch.d36"19BA7EA3-CDCC-4AEB-A080-D0D035A453A6-
+
