@@ -6,11 +6,11 @@ In your AppDelegate.m
 Add this line
 #import "iSpeechSDK.h"
 and inside the init method configure your iSpeech key with this 2 lines of code:
-iSpeechSDK *sdk = [iSpeechSDK sharedSDK]; sdk.APIKey = @"yourKeyGoesHere";
+iSpeechSDK *sdk = [iSpeechSDK sharedSDK]; 
+sdk.APIKey = @"yourKeyGoesHere";
 example, don't remove the existing phonegap code, just add the 2 lines before the self = [super init];
 – - (id)init {
-/** If you need to do any extra app-specific initialization, you can do it here * -jm
-**/
+/** If you need to do any extra app-specific initialization, you can do it here * -jm **/
 NSHTTPCookieStorage* cookieStorage = [NSHTTPCookieStorage sharedHTTPCookieStorage];
 [cookieStorage setCookieAcceptPolicy:NSHTTPCookieAcceptPolicyAlways];
 int cacheSizeMemory = 8 * 1024 * 1024; // 8MB
@@ -38,14 +38,14 @@ Drag the files
 TTSAndSpeechRecognitionPlugin.h
 TTSAndSpeechRecognitionPlugin.m to your phonegap Plugins folder
 make sure the copy files if neccesary option is checked and the create groups option.
-Add this line to the plugins section inside config.xml
+Inside config.xml
 
 If using phonegap >= 3.0 
 <feature name="TTSAndSpeechRecognitionPlugin">
         <param name="ios-package" value="TTSAndSpeechRecognitionPlugin" />
 </feature>
 
-If using phonegap < 3.0
+If using phonegap < 3.0 add this line to the plugins section
 <plugin name="TTSAndSpeechRecognitionPlugin" value="TTSAndSpeechRecognitionPlugin" />
 
 
