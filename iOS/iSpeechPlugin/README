@@ -1,0 +1,103 @@
+iSpeech Plugin for TTS and Speech Recognition using iSpeech SDK
+
+iSpeech configuration:
+
+In your AppDelegate.m
+Add this line
+#import "iSpeechSDK.h"
+and inside the init method configure your iSpeech key with this 2 lines of code:
+iSpeechSDK *sdk = [iSpeechSDK sharedSDK]; sdk.APIKey = @"yourKeyGoesHere";
+example, don't remove the existing phonegap code, just add the 2 lines before the self = [super init];
+– - (id)init {
+/** If you need to do any extra app-specific initialization, you can do it here * -jm
+**/
+NSHTTPCookieStorage* cookieStorage = [NSHTTPCookieStorage sharedHTTPCookieStorage];
+[cookieStorage setCookieAcceptPolicy:NSHTTPCookieAcceptPolicyAlways];
+int cacheSizeMemory = 8 * 1024 * 1024; // 8MB
+int cacheSizeDisk = 32 * 1024 * 1024; // 32MB NSURLCache* sharedCache = [[[NSURLCache alloc]
+initWithMemoryCapacity:cacheSizeMemory diskCapacity:cacheSizeDisk diskPath:@"nsurlcache"] autorelease];
+[NSURLCache setSharedURLCache:sharedCache];
+iSpeechSDK *sdk = [iSpeechSDK sharedSDK];
+    sdk.APIKey = @"yourKeyGoesHere";
+self = [super init];
+return self; }
+
+Add this frameworks to your project AudioToolbox.framework, SystemConfiguration.framework, Security.framework, and CFNetwork.framework.
+
+Download the iSpeech SDK or use the files from the sample project. You will need this files:
+Headers folder:
+Contains iSpeechSDK headers.
+Drag it from your downloads or from the sample project, make sure the copy files if neccesary option is checked and the create groups option.
+LibiSpeechSDK.a
+Drag it from your downloads or from the sample project, make sure the copy files if neccesary option is checked and the create groups option.
+IspeechSDK.bundle
+Drag it from your downloads or from the sample project, make sure the copy files if neccesary option is checked and the create groups option.
+
+Plugin specific configuration:
+Drag the files
+TTSAndSpeechRecognitionPlugin.h
+TTSAndSpeechRecognitionPlugin.m to your phonegap Plugins folder
+make sure the copy files if neccesary option is checked and the create groups option.
+Add this line to the plugins section inside config.xml
+
+If using phonegap >= 3.0 
+<feature name="TTSAndSpeechRecognitionPlugin">
+        <param name="ios-package" value="TTSAndSpeechRecognitionPlugin" />
+</feature>
+
+If using phonegap < 3.0
+<plugin name="TTSAndSpeechRecognitionPlugin" value="TTSAndSpeechRecognitionPlugin" />
+
+
+put the TTSAndSpeechRecognitionPlugin.js file inside your www folder and link it inside your index.html (see sample project)
+
+
+Configuring the speech plugin:
+Right now the plugin is very limited and you can't configure it from the javascript part, but you can configure it from the native part. There is how:
+
+in the TTSAndSpeechRecognitionPlugin.m
+inside the speak function you can configure speed, bitrate, and voice:
+
+Set voice:
+example
+[synthesis setVoice:ISVoiceEURSpanishMale];
+see available voices inside IISpeechSynthesisVoices.h (Inside the Headers folder)
+
+Set bitrate:
+[synthesis setBitrate:48];
+Valid values include 8, 16, 24, 32, 48, 56, 64, 80, 96, 112, 128, 144, 160, 192, 224, 256, and 320
+
+Set Speed:
+example
+[synthesis setSpeed:0]; Valid values from -10 to 10
+
+
+Configuring the detection:
+in the TTSAndSpeechRecognitionPlugin.m
+inside the speak function you can configure silence detection, locale, and confidence:
+
+silence detection: If YES it stops recognicing when detects silence, set to NO to make it stop when you push Done button or on the timeout.
+[recognition setSilenceDetectionEnabled:YES];
+
+locale: (language used to detect)
+example
+[recognition setLocale:ISLocaleESSpanish];
+The available locales are inside ISSpeechRecognitionLocales.h (in headers folder) It might accept some ISO codes, but I think it's better using the ones in ISSpeechRecognitionLocales.h
+
+confidence:
+is the confidence of the recognition result, the value will be between 0.0 and 1.0 
+I'm making the plugin to fail if confidence < 0.3
+if (result.confidence < 0.3) {
+[self.commandDelegate sendPluginResult:[CDVPluginResult
+resultWithStatus:CDVCommandStatus_ERROR messageAsString:@"no confidence"] callbackId:command.callbackId];
+}
+
+
+How to use the plugin in javascript:
+See example inside index.html
+
+speak function:
+window.TTSPlugin.speak(speakPluginResultHandler,nativePluginErrorHandler,”text you want the plugin to speak”);
+
+recognize function:
+window.TTSPlugin.recognize(recognizePluginResultHandler,nativePluginErrorHandler);
