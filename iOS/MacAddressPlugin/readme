@@ -1,3 +1,9 @@
+WARNING!!!!
+
+The plugin no longer works on iOS 7, it will retunr a dummy value 20:00:00:00:00:00, it's no longer possible to get the MAC address on iOS 7.
+
+
+
 The code from
 
 http://iosdevelopertips.com/device/determine-mac-address.html
