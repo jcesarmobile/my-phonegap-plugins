@@ -1,3 +1,9 @@
+The plugin have been updated to use the latest iSpeech SDK and now it's CLI compatible.
+It has it's own repository https://github.com/jcesarmobile/iSpeechPlugin
+
+This version is still working but requires manual installation and the latest SDK should be downloaded from https://www.ispeech.org/developers/iphone to avoid app store rejections
+
+
 iSpeech Plugin for TTS and Speech Recognition using iSpeech SDK
 
 iSpeech configuration:
